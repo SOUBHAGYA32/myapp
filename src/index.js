@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import './index.css';
 import User from './User';
+import Jobs from './Components/Jobs';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <User />
+    <Jobs/>
   </React.StrictMode>,
   document.getElementById('root')
 );
